@@ -1,27 +1,19 @@
-##print_tree_from_list
-
 **Kindly, if you find this repo useful for your work, cite & star this repo**
 
 **What is this script?**
 
-[print_tree_from_list](https://github.com/padlocbio/padloc) is a great script for 
+[ETE toolkit](https://etetoolkit.org/) is a great toolkit for phylogenetics. We employ this simple script for printing a basic phylogenetic tree based on NCBI taxa 
 
 **What do you need?**
 
-
-"-i /--input_dir"  is your path to the directory of CSV files 
-
+"-i /--input_dir" is your path to the directory of CSV files 
 
 ```python
- python padloc_stats.py -i ./txt -p Corynebacterium
+python3 print_tree_list.py -i species.csv
 ```
 
 **What do you get?**
 
-Currently, 
-
-
-Well, nothing better than  for this, a simple (and redundant) example for heatmap exists in the defensome.R
-
+Well, nothing better than ITOL or figtree to draw the tree.
 
 Thanks
