@@ -1,6 +1,6 @@
-#print_tree_from_list
+##print_tree_from_list
 
-**Kindly if you find this repo useful for your work, cite & star this repo**
+**Kindly, if you find this repo useful for your work, cite & star this repo**
 
 **What is this script?**
 
@@ -20,9 +20,6 @@
 
 Currently, 
 
-1- "prefix"_frequency.csv (The general one like a summary of systems per the whole run).
-
-Here you have the "frequency" of each system in your genomes and a relative frequency. Well, what is the relative frequency? The relative frequency is the outcome of dividing the frequency/ number of genomes.
 
 Well, nothing better than  for this, a simple (and redundant) example for heatmap exists in the defensome.R
 
