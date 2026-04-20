@@ -13,7 +13,7 @@ python3 print_tree_list.py -i species.csv
 ```
 
 **What do you get?**
-
+a tree in  format.
 Well, nothing better than ITOL or figtree to draw the tree.
 
 Thanks
