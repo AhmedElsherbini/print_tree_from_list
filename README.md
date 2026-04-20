@@ -14,7 +14,7 @@ python3 print_tree_list.py -i species.csv
 
 **What do you get?**
 
-a tree in Newick nwk format.
+a tree in Newick (nwk) format.
 
 Then, nothing better than ITOL or figtree to draw the tree.
 
