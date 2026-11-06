@@ -31,7 +31,12 @@ f_name = args.input
 ##############
 
 #f_name = "species.csv"
-df = pd.read_csv(f_name, on_bad_lines='skip')
+
+try:
+    df = pd.read_csv(f_name, on_bad_lines='skip')
+except TypeError:
+    df = pd.read_csv(f_name, error_bad_lines=False, warn_bad_lines=True)
+    
 ncbi = NCBITaxa()
 species_taxids = {}
 ##############
